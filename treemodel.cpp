@@ -99,11 +99,6 @@ QVariant TreeModel::data(const QModelIndex &index, int role) const
 }
 //! [3]
 
-void idk()
-{
-
-}
-
 bool TreeModel::setData(const QModelIndex &index, const QVariant &value, int role)
 {
     if (!index.isValid())
